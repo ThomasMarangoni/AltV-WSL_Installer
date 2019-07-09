@@ -1,5 +1,8 @@
 # AltV-WSL Installer
-This script will activate the Windows Subsystem for Linux on your computer, installs debian and setting up a alt:V Server.
+This script will activate the Windows Subsystem for Linux (not WSL2 yet) on your computer, installs debian and setting up a alt:V Server.
+
+## Minimun Requirements
+- Windows 10 - Build 1903
 
 ## How to run the Installer?
 - download this repo as .zip file or clone it
@@ -17,4 +20,8 @@ This script will activate the Windows Subsystem for Linux on your computer, inst
   - other positions can be a-z, 0-9 or _
 - Server folder can be found:
   - Windows: C:\altv-server\
-  - Linux: ~/altv-server/ or /mnt/c/altv-server/ 
+  - Linux: ~/altv-server/ or /mnt/c/altv-server/
+- WSL can be accessed:
+  - "Debian" in programms
+  - wsl in powershell/cmd
+  - bash in powershell/cmd
